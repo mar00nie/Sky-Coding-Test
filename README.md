@@ -1,2 +1,2 @@
 # Sky-Coding-Test
-Coding test for Sky Software Engineering Academy
+Coding test in HTML/CSS and JavaScript for Sky Software Engineering Academy
