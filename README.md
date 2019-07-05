@@ -1,2 +1,2 @@
 # Moodslider
-Coding test in HTML/CSS and JavaScript for Sky Software Engineering Academy
+Web App for the Sky Software Engineering Academy Coding Test
