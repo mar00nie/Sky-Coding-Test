@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sky Cinema - Moodslider</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom CSS -->
+    <link href="css/moodslider.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/fonts.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+<header>
+<!--Sky logo-->
+<div class="image">
+        <img src="img/sky-cinema.jpg" class="stretch"></img> <br><br>
+    <!--File upload-->
+        <div class="upload"> <p>
+          <form method="post" enctype="multipart/form-data">
+                 <label for="file">Upload XML file</label>
+             <input type="file" id="file" name="file" multiple>
+           <div>
+             <button>Submit</button>
+           </div>
+          </form>
+                  <script>
+                  function myFunction() {
+                      var x = document.createElement("input");
+                      x.setAttribute("type", "file");
+                      document.body.appendChild(x);
+                      var file = document.getElementById("input").submit();
+                      var text = file;
+                  }
+                  </script>
+        </div>
+<!--Button to go to Moodslider-->
+        <div class="text-block"><br><br>
+        <a href="#app" class="btn btn-dark btn-lg btn">Click here for Moodslider</a>
+      </div>
+
+</div>
+</header>
+
+<!--Mood sliders-->
+<section id="app" class="application">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-10" text-center>
+                  <h3>How do you feel?</h3><br>
+              <div class="slidecontainer" layout-align="center">
+                <div class="row1">
+                  <div class="col-md-2">
+                    <span class="emotion1">Sad</span>
+                  </div>
+                  <div class="col-md-8">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange1">
+                    <p class="value">Value: <span id="demo1"></span></p>
+                  </div>
+                  <div class="col-md-2" text-left>
+                    <span class="emotion2">Happy</span>
+                      <br><br>
+                  </div>
+                </div>
+                <div class="row2">
+                  <div class="col-md-2" text-right>
+                    <span class="emotion1">Agitated</span>
+                  </div>
+                  <div class="col-md-8">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange2">
+                    <p class="value">Value: <span id="demo2"></span></p>
+                  </div>
+                  <div class="col-md-2" text-left>
+                    <span class="emotion2">Calm</span>
+                        <br><br>
+                  </div>
+                </div>
+                <p><p>
+                <div class="row3">
+                  <div class="col-md-2" text-right>
+                    <span class="emotion1">Tired</span>
+                  </div>
+                  <div class="col-md-8">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange3">
+                    <p class="value">Value: <span id="demo3"></span></p>
+                  </div>
+                  <div class="col-md-2" text-left>
+                    <span class="emotion2">Wide Awake</span>
+                    <br><br>
+                  </div>
+                </div>
+                <div class="row4">
+                  <div class="col-md-2" text-right>
+                    <span class="emotion1">Scared</span>
+                  </div>
+                  <div class="col-md-8">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange4">
+                    <p class="value">Value: <span id="demo4"></span></p>
+                  </div>
+                  <div class="col-md-2" text-left>
+                    <span class="emotion2">Fearless</span>
+                      <br><br>
+                  </div>
+                </div>
+
+<!--Changing movie images by changing slider positions-->
+<script>
+
+var slider1 = document.getElementById("myRange1");
+var output1 = document.getElementById("demo1");
+output1.innerHTML = slider1.value;
+
+slider1.oninput = function() {
+  output1.innerHTML = slider1.value;
+if (slider1.value < 50) {
+  document.getElementById("movie1").src="img/moonlight.jpg";
+  document.getElementById("name1").innerHTML = "Moonlight";
+  document.getElementById("movie2").src="img/lalaland.jpg";
+  document.getElementById("name2").innerHTML = "La La Land";
+  document.getElementById("movie3").src="img/beautybeast.jpg";
+  document.getElementById("name3").innerHTML = "Beauty and the Beast";
+  document.getElementById("movie4").src="img/danishgirl.jpg";
+  document.getElementById("name4").innerHTML = "The Danish Girl";
+  document.getElementById("movie5").src="img/edge17.jpg";
+  document.getElementById("name5").innerHTML = "The Edge of Seventeen";
+  }
+
+else {
+  document.getElementById("movie1").src="img/sing.jpg";
+  document.getElementById("name1").innerHTML = "Sing";
+  document.getElementById("movie2").src="img/zootopia.jpg";
+  document.getElementById("name2").innerHTML = "Zootopia";
+  document.getElementById("movie3").src="img/legobatman.jpg";
+  document.getElementById("name3").innerHTML = "The Lego Batman Movie";
+  document.getElementById("movie4").src="img/findingdory.jpg";
+  document.getElementById("name4").innerHTML = "Finding Dory";
+  document.getElementById("movie5").src="img/insideout.jpg";
+  document.getElementById("name5").innerHTML = "Inside Out";
+  }
+/* Different movie selections when two sliders change positions */
+  if (slider1.value > 50 & slider4.value > 50) {
+    document.getElementById("movie1").src="img/hiddenfigures.jpg";
+    document.getElementById("name1").innerHTML = "Hidden Figures";
+    document.getElementById("movie2").src="img/wonderland.jpg";
+    document.getElementById("name2").innerHTML = "Alice in Wonderland";
+    document.getElementById("movie3").src="img/deadpool.jpg";
+    document.getElementById("name3").innerHTML = "Deadpool";
+    document.getElementById("movie4").src="img/ghostbusters.jpg";
+    document.getElementById("name4").innerHTML = "Ghostbusters";
+    document.getElementById("movie5").src="img/moana.jpg";
+    document.getElementById("name5").innerHTML = "Moana";
+  }
+}
+
+var slider2 = document.getElementById("myRange2");
+var output2 = document.getElementById("demo2");
+output2.innerHTML = slider2.value;
+
+slider2.oninput = function() {
+  output2.innerHTML = slider2.value;
+  if (slider2.value < 50) {
+    document.getElementById("movie1").src="img/arrival.jpg";
+    document.getElementById("name1").innerHTML = "Arrival";
+    document.getElementById("movie2").src="img/exmachina.jpg";
+    document.getElementById("name2").innerHTML = "Ex Machina";
+    document.getElementById("movie3").src="img/jasonbourne.jpg";
+    document.getElementById("name3").innerHTML = "Jason Bourne";
+    document.getElementById("movie4").src="img/resurgence.jpg";
+    document.getElementById("name4").innerHTML = "Independence Day: Resurgence";
+    document.getElementById("movie5").src="img/martian.jpg";
+    document.getElementById("name5").innerHTML = "The Martian";
+  }
+
+else {
+  document.getElementById("movie1").src="img/moana.jpg";
+  document.getElementById("name1").innerHTML = "Moana";
+  document.getElementById("movie2").src="img/brucealmighty.jpg";
+  document.getElementById("name2").innerHTML = "Bruce Almighty";
+  document.getElementById("movie3").src="img/jackie.jpg";
+  document.getElementById("name3").innerHTML = "Jackie";
+  document.getElementById("movie4").src="img/tomorrowland.jpg";
+  document.getElementById("name4").innerHTML = "Tomorrowland";
+  document.getElementById("movie5").src="img/stevejobs.jpg";
+  document.getElementById("name5").innerHTML = "Steve Jobs";
+  }
+/* Different movie selections when two sliders change positions */
+  if (slider2.value < 50 & slider3.value > 50) {
+    document.getElementById("movie1").src="img/deadpool.jpg";
+    document.getElementById("name1").innerHTML = "Deadpool";
+    document.getElementById("movie2").src="img/xmen.jpg";
+    document.getElementById("name2").innerHTML = "X-Men: Apocalypse";
+    document.getElementById("movie3").src="img/spectre.jpg";
+    document.getElementById("name3").innerHTML = "Spectre";
+    document.getElementById("movie4").src="img/jurassicworld.jpg";
+    document.getElementById("name4").innerHTML = "Jurassic World";
+    document.getElementById("movie5").src="img/jasonbourne.jpg";
+    document.getElementById("name5").innerHTML = "Jason Bourne";
+  }
+}
+
+var slider3 = document.getElementById("myRange3");
+var output3 = document.getElementById("demo3");
+output3.innerHTML = slider3.value;
+
+slider3.oninput = function() {
+  output3.innerHTML = slider3.value;
+if (slider3.value < 50) {
+  document.getElementById("movie1").src="img/secretlifepets.jpg";
+  document.getElementById("name1").innerHTML = "The Secret Life of Pets";
+  document.getElementById("movie2").src="img/minions.jpg";
+  document.getElementById("name2").innerHTML = "Minions";
+  document.getElementById("movie3").src="img/trainwreck.jpg";
+  document.getElementById("name3").innerHTML = "Trainwreck";
+  document.getElementById("movie4").src="img/smurfs.jpg";
+  document.getElementById("name4").innerHTML = "Smurfs: The Lost Village";
+  document.getElementById("movie5").src="img/ghostbusters.jpg";
+  document.getElementById("name5").innerHTML = "Ghostbusters";
+  }
+
+else {
+  document.getElementById("movie1").src="img/avatar.jpg";
+  document.getElementById("name1").innerHTML = "Avatar";
+  document.getElementById("movie2").src="img/batmansuperman.jpg";
+  document.getElementById("name2").innerHTML = "Batman vs. Superman";
+  document.getElementById("movie3").src="img/drstrange.jpg";
+  document.getElementById("name3").innerHTML = "Dr. Strange";
+  document.getElementById("movie4").src="img/fantasticbeasts.jpg";
+  document.getElementById("name4").innerHTML = "Fantastic Beasts";
+  document.getElementById("movie5").src="img/passengers.jpg";
+  document.getElementById("name5").innerHTML = "Passengers";
+  }
+/* Different movie selections when two sliders change positions */
+  if (slider2.value < 50 & slider3.value > 50) {
+    document.getElementById("movie1").src="img/deadpool.jpg";
+    document.getElementById("name1").innerHTML = "Deadpool";
+    document.getElementById("movie2").src="img/xmen.jpg";
+    document.getElementById("name2").innerHTML = "X-Men: Apocalypse";
+    document.getElementById("movie3").src="img/spectre.jpg";
+    document.getElementById("name3").innerHTML = "Spectre";
+    document.getElementById("movie4").src="img/jurassicworld.jpg";
+    document.getElementById("name4").innerHTML = "Jurassic World";
+    document.getElementById("movie5").src="img/jasonbourne.jpg";
+    document.getElementById("name5").innerHTML = "Jason Bourne";
+  }
+}
+
+var slider4 = document.getElementById("myRange4");
+var output4 = document.getElementById("demo4");
+output4.innerHTML = slider4.value;
+
+slider4.oninput = function() {
+  output4.innerHTML = slider4.value;
+if (slider4.value < 50) {
+  document.getElementById("movie1").src="img/insidious3.jpg";
+  document.getElementById("name1").innerHTML = "Insidious Chapter 3";
+  document.getElementById("movie2").src="img/jurassicworld.jpg";
+  document.getElementById("name2").innerHTML = "Jurassic World";
+  document.getElementById("movie3").src="img/logan.jpg";
+  document.getElementById("name3").innerHTML = "Logan";
+  document.getElementById("movie4").src="img/suicidesquad.jpg";
+  document.getElementById("name4").innerHTML = "Suicide Squad";
+  document.getElementById("movie5").src="img/revenant.jpg";
+  document.getElementById("name5").innerHTML = "The Revenant";
+  }
+
+else {
+  document.getElementById("movie1").src="img/captainamerica.jpg";
+  document.getElementById("name1").innerHTML = "Captain America";
+  document.getElementById("movie2").src="img/forceawakens.jpg";
+  document.getElementById("name2").innerHTML = "The Force Awakens";
+  document.getElementById("movie3").src="img/rogueone.jpg";
+  document.getElementById("name3").innerHTML = "Rogue One";
+  document.getElementById("movie4").src="img/junglebook.jpg";
+  document.getElementById("name4").innerHTML = "The Jungle Book";
+  document.getElementById("movie5").src="img/mockingjay.jpg";
+  document.getElementById("name5").innerHTML = "Mockingjay";
+}
+/* Different movie selections when two sliders change positions */
+if (slider1.value > 50 & slider4.value > 50) {
+  document.getElementById("movie1").src="img/hiddenfigures.jpg";
+  document.getElementById("name1").innerHTML = "Hidden Figures";
+  document.getElementById("movie2").src="img/wonderland.jpg";
+  document.getElementById("name2").innerHTML = "Alice in Wonderland";
+  document.getElementById("movie3").src="img/deadpool.jpg";
+  document.getElementById("name3").innerHTML = "Deadpool";
+  document.getElementById("movie4").src="img/ghostbusters.jpg";
+  document.getElementById("name4").innerHTML = "Ghostbusters";
+  document.getElementById("movie5").src="img/moana.jpg";
+  document.getElementById("name5").innerHTML = "Moana";
+}
+}
+
+</script>
+
+<!--Recommended movies: images & titles -->
+<div class="data" id="filmdata">
+  <div class="col-lg-12">
+      <h3>Movie Recommendations:</h3><br>
+    <table style="width:100%">
+        <tr>
+            <td><a href="#"><img class="img-resize" src="img/placeholder.jpg" id="movie1"></img></a></td>
+            <td><a href="#"><img class="img-resize" src="img/placeholder.jpg" id="movie2"></img></a></td>
+            <td><a href="#"><img class="img-resize" src="img/placeholder.jpg" id="movie3"></img></a></td>
+            <td><a href="#"><img class="img-resize" src="img/placeholder.jpg" id="movie4"></img></a></td>
+            <td><a href="#"><img class="img-resize" src="img/placeholder.jpg" id="movie5"></img></a></td>
+        </tr>
+        <tr>
+            <td><a href="#" id="name1">No content</a></td>
+            <td><a href="#" id="name2">No content</a></td>
+            <td><a href="#" id="name3">No content</a></td>
+            <td><a href="#" id="name4">No content</a></td>
+            <td><a href="#" id="name5">No content</a></td>
+</tr>
+    </table><br>
+</div>
+</div>
+</body>
+
+<!--Copyright text-->
+<footer id="copyright">
+                <hr class="small">
+                <p class="text-muted">Copyright &copy; Moodslider 2018</p>
+</footer>
+</html>

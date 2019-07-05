@@ -1,0 +1,141 @@
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* Fonts */
+h3,
+body {
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+/* Image captions */
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Resize images */
+
+.img-resize {
+        height: 275px;
+}
+
+/* Button for Moodslider */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+#app {
+  position: relative;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 600px;
+    color: white;
+  }
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/red-bg.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Footer */
+
+.footer {
+    padding: 100px 0;
+}
+
+/* Sliders */
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 80%;
+    height: 10px;
+    background: #ccccff;
+    border-color: #ccccff;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #6600cc;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #6600cc;
+    cursor: pointer;
+}
+
+/* Sky Logo */
+
+.stretch {
+    width:100%;
+    height:100%;
+    position: relative;
+}
+
+.container {
+    text-align: center;
+    width:100%;
+    height:100%;
+    color: black;
+}
+
+/* Slider Values */
+
+.value {
+  color: white;
+}
+
+/* File Upload */
+
+.upload {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: black;
+}

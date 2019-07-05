@@ -1,0 +1,315 @@
+<programme>
+<title>Programme Data</title>
+<programme id="1">
+<programme 1>
+<name>Arrival</name>
+<image>img/arrival.jpg</image>
+<mood>Agitated</mood>
+</programme 1>
+</programme>
+<programme id="2">
+<programme 2>
+<name>Avatar</name>
+<image>img/avatar.jpg</image>
+<mood>Wide Awake</mood>
+</programme 2>
+</programme>
+<programme id="3">
+<programme 3>
+<name>Batman vs. Superman</name>
+<image>img/batmansuperman.jpg</image>
+<mood>Wide Awake</mood>
+</programme 3>
+</programme>
+<programme id="4">
+<programme 4>
+<name>Beauty and the Beast</name>
+<image>img/beautybeast.jpg</image>
+<mood>Happy</mood>
+</programme 4>
+</programme>
+<programme id="5">
+<programme 5>
+<name>Bruce Almighty</name>
+<image>img/brucealmighty.jpg</image>
+<mood>Happy</mood>
+</programme 5>
+</programme>
+<programme id="6">
+<programme 6>
+<name>Captain America</name>
+<image>img/captainamerica.jpg</image>
+<mood>Fearless</mood>
+</programme 6>
+</programme>
+<programme id="7">
+<programme 7>
+<name>The Danish Girl</name>
+<image>img/danishgirl.jpg</image>
+<mood>Calm</mood>
+</programme 7>
+</programme>
+<programme id="8">
+<programme 8>
+<name>Deadpool</name>
+<image>img/deadpool.jpg</image>
+<mood>Fearless</mood>
+</programme 8>
+</programme>
+<programme id="9">
+<programme 9>
+<name>Dr. Strange</name>
+<image>img/drstrange.jpg</image>
+<mood>Wide Awake</mood>
+</programme 9>
+</programme>
+<programme id="10">
+<programme 10>
+<name>The Edge of Seventeen</name>
+<image>img/edge17.jpg</image>
+<mood>Sad</mood>
+</programme 10>
+</programme>
+<programme id="11">
+<programme 11>
+<name>Ex Machina</name>
+<image>img/exmachina.jpg</image>
+<mood>Agitated</mood>
+</programme 11>
+</programme>
+<programme id="12">
+<programme 12>
+<name>Fantastic Beasts</name>
+<image>img/fantasticbeasts.jpg</image>
+<mood>Wide Awake</mood>
+</programme 12>
+</programme>
+<programme id="13">
+<programme 13>
+<name>Finding Dory</name>
+<image>img/findingdory.jpg</image>
+<mood>Happy</mood>
+</programme 13>
+</programme>
+<programme id="14">
+<programme 14>
+<name>The Force Awakens</name>
+<image>img/forceawakens.jpg</image>
+<mood>Wide Awake</mood>
+</programme 14>
+</programme>
+<programme id="15">
+<programme 15>
+<name>Smurfs: The Lost Village</name>
+<image>img/smurfs.jpg</image>
+<mood>Happy</mood>
+</programme 15>
+</programme>
+<programme id="16">
+<programme 16>
+<name>Ghostbusters</name>
+<image>img/ghostbusters.jpg</image>
+<mood>Happy</mood>
+</programme 16>
+</programme>
+<programme id="17">
+<programme 17>
+<name>The Hateful Eight</name>
+<image>img/hateful8.jpg</image>
+<mood>Wide Awake</mood>
+</programme 17>
+</programme>
+<programme id="18">
+<programme 18>
+<name>Hidden Figures</name>
+<image>img/hiddenfigures.jpg</image>
+<mood>Fearless</mood>
+</programme 18>
+</programme>
+<programme id="19">
+<programme 19>
+<name>Inside Out</name>
+<image>img/insideout.jpg</image>
+<mood>Happy</mood>
+</programme 19>
+</programme>
+<programme id="20">
+<programme 20>
+<name>Insidious Chapter 3</name>
+<image>img/insidious3.jpg</image>
+<mood>Scared</mood>
+</programme 20>
+</programme>
+<programme id="21">
+<programme 21>
+<name>Jackie</name>
+<image>img/jackie.jpg</image>
+<mood>Calm</mood>
+</programme 21>
+</programme>
+<programme id="22">
+<programme 22>
+<name>Jason Bourne</name>
+<image>img/jasonbourne.jpg</image>
+<mood>Agitated</mood>
+</programme 22>
+</programme>
+<programme id="23">
+<programme 23>
+<name>Joy</name>
+<image>img/joy.jpg</image>
+<mood>Calm</mood>
+</programme 23>
+</programme>
+<programme id="24">
+<programme 24>
+<name>The Jungle Book</name>
+<image>img/junglebook.jpg</image>
+<mood>Fearless</mood>
+</programme 24>
+</programme>
+<programme id="25">
+<programme 25>
+<name>Jurassic World</name>
+<image>img/jurassicworld.jpg</image>
+<mood>Scared</mood>
+</programme 25>
+</programme>
+<programme id="26">
+<programme 26>
+<name>La La Land</name>
+<image>img/lalaland.jpg</image>
+<mood>Sad</mood>
+</programme 26>
+</programme>
+<programme id="27">
+<programme 27>
+<name>The Lego Batman Movie</name>
+<image>img/legobatman.jpg</image>
+<mood>Happy</mood>
+</programme 27>
+</programme>
+<programme id="28">
+<programme 28>
+<name>Logan</name>
+<image>img/logan.jpg</image>
+<mood>Scared</mood>
+</programme 28>
+</programme>
+<programme id="29">
+<programme 29>
+<name>The Martian</name>
+<image>img/martian.jpg</image>
+<mood>Agitated</mood>
+</programme 29>
+</programme>
+<programme id="30">
+<programme 30>
+<name>Minions</name>
+<image>img/minions.jpg</image>
+<mood>Happy</mood>
+</programme 30>
+</programme>
+<programme id="31">
+<programme 31>
+<name>Moana</name>
+<image>img/moana.jpg</image>
+<mood>Happy</mood>
+</programme 31>
+<programme id="32">
+<programme 32>
+<name>Mockingjay</name>
+<image>img/mockingjay.jpg</image>
+<mood>Fearless</mood>
+</programme 32>
+<programme id="33">
+<programme 33>
+<name>X-Men: Apocalypse</name>
+<image>img/xmen.jpg</image>
+<mood>Happy</mood>
+</programme 33>
+<programme id="34">
+<programme 34>
+<name>Moonlight</name>
+<image>img/moonlight.jpg</image>
+<mood>Sad</mood>
+</programme 34>
+<programme id="35">
+<programme 35>
+<name>Passengers</name>
+<image>img/passengers.jpg</image>
+<mood>Fearless</mood>
+</programme 35>
+<programme id="36">
+<programme 36>
+<name>Independence Day: Resurgence</name>
+<image>img/resurgence.jpg</image>
+<mood>Agitated</mood>
+</programme 36>
+<programme id="37">
+<programme 37>
+<name>The Revenant</name>
+<image>img/revenant.jpg</image>
+<mood>Scared</mood>
+</programme 37>
+<programme id="38">
+<programme 38>
+<name>Rogue One</name>
+<image>img/rogueone.jpg</image>
+<mood>Fearless</mood>
+</programme 38>
+<programme id="39">
+<programme 39>
+<name>The Secret Life of Pets</name>
+<image>img/secretlifepets.jpg</image>
+<mood>Happy</mood>
+</programme 39>
+<programme id="40">
+<programme 40>
+<name>Sing</name>
+<image>img/sing.jpg</image>
+<mood>Happy</mood>
+</programme 40>
+<programme id="41">
+<programme 41>
+<name>Spectre</name>
+<image>img/spectre.jpg</image>
+<mood>Fearless</mood>
+</programme 40>
+<programme id="42">
+<programme 42>
+<name>Steve Jobs</name>
+<image>img/stevejobs.jpg</image>
+<mood>Calm</mood>
+</programme 42>
+<programme id="43">
+<programme 43>
+<name>Suicide Squad</name>
+<image>img/suicidesquad.jpg</image>
+<mood>Agitated</mood>
+</programme 43>
+<programme id="44">
+<programme 44>
+<name>Tomorrowland</name>
+<image>img/sing.jpg</image>
+<mood>Calm</mood>
+</programme 44>
+<programme id="45">
+<programme 45>
+<name>Alice in Wonderland</name>
+<image>img/wonderland.jpg</image>
+<mood>Calm</mood>
+</programme 45>
+<programme id="46">
+<programme 46>
+<name>Zootopia</name>
+<image>img/zootopia.jpg</image>
+<mood>Happy</mood>
+</programme 46>
+<programme id="47">
+<programme 47>
+<name>Trainwreck</name>
+<image>img/trainwreck.jpg</image>
+<mood>Happy</mood>
+</programme 47>
+</programme data>
